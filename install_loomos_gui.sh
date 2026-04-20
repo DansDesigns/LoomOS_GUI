@@ -12,7 +12,7 @@ echo "-------------------------------"
 echo "Installing system packages..."
 echo "-------------------------------"
 sudo apt install nala nala -y
-sudo nala update
+#sudo nala update
 sudo nala install -y \
     git alacrity htop python3-venv \
     python3 python3-pip python3-tk \
