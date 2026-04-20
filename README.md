@@ -3,6 +3,13 @@ supports Linux & Windows
 
 
 Voice controlled User Interface with AI conversation mode & built-in media player
+# Install:
+```
+Linux: run install_loomos_gui.sh
+
+Windows: run install_loomos_gui.bat
+
+Both will create a virtual python environment, install the requirements & launch LoomOS GUI
 
 
 # Speech recognition login
@@ -30,6 +37,8 @@ converse with a local LLM via Ollama and a swappable prompt menu
 
 
 # Media mode voice commands:
-- play/pause/stop/next/previous/shuffle/repeat/
-  volume up|down|set, open media folder, open video folder, select music
+- play/pause/stop/next/previous/shuffle/repeat/volume up|down|set, open media folder, open video folder, select music
+- "play <artist>" - if no exact song match, asks "Which song?"
+- "play <song>"   - plays directly and confirms via TTS
+- "play anything by <artist>" - shuffles all artist tracks, auto-starts
   
