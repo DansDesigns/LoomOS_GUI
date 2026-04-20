@@ -3,7 +3,7 @@ supports Linux & Windows
 
 
 Voice controlled User Interface with AI conversation mode & built-in media player
-# Install:
+# Install
 ```
 Linux: run install_loomos_gui.sh
 
@@ -14,9 +14,18 @@ for Linux <TBD>
 for Windows, use run_loomos_gui.bat everytime, after first run, to launch
 ```
 
+# First Start
+```
+set wallpaper, say "change wallpaper", make sure you have a wallpapers or Wallpapers directory
+recomended to change the font in the settings panel, say "show/open settings"
+
+
+```
+
 # Speech recognition login
 x2 NATO phonetic alphabet words + x2 numbers in any combination
 - <CTRL + N> to re-register
+- <CTRL + C> to toggle click-input
 
 
 # Command mode
