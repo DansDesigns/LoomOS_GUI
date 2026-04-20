@@ -1,0 +1,15 @@
+move all included files to the following folder:
+
+~/home/.loomos_apps
+
+on windows that means your user directory:
+
+c:/users/<yourname>/.loomos_apps
+
+or open file browser and click Documents,
+then at the top in the address bar click your username,
+in that folder should be a folder called:
+
+".loomos_apps"
+
+if not, create one with that name and paste the included python files
