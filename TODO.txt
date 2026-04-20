@@ -1,10 +1,3 @@
-add "cancel" command
-
-window control:
-add close all to close all windows
-maximise, minimise, restore <app name>
-
-
 
 add shutdown and restart commands (gui only)
 remove static word placements & replace with dynamic
@@ -14,11 +7,9 @@ on the model settings panel, only log conversations when in conversation mode & 
 move cmd/conv pill to replace "MODEL:none"
 add a "node settings" panel (slide down from top)
 
-popup speech commands window "Help/show commands"
+kids mode with passphrase protected exit - child safe models only - TEST LOTS!!!!
 
-kids mode with passphrase protected exit - child safe models only
-
-automatically assign tasks to seperate small models with dedicated prompts (load model on demand):
+automatically assign tasks to separate small models with dedicated prompts (load model on demand):
 coding -
 research assistant - research_assistant_prompt.txt
 context - prompt_context.txt
@@ -33,8 +24,5 @@ etc..
 app template for easy generation of new apps
 default wake word: "computer", pause media when detected, add text field in settings for wake word..
 
-volume commands:
-volume up/down
-set volume 50
 
 husarnet vpn connection for wwm (world-wide mesh) like tailscale-vpn as seen by Rob Braxman YT
