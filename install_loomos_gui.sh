@@ -4,9 +4,9 @@
 # ========================================== 
 set -e
 
-echo "=== LoomOS Installer ==="
+echo "=== LoomOS_GUI Installer ==="
 
-sudo apt install nala nala
+sudo apt install nala nala -y
 sudo nala update -y
 
 # ========== Install system packages ========== 
@@ -31,15 +31,15 @@ pip3 install \
 
 # ========== Clone LoomOS repo ========== 
 echo "Cloning LoomOS repository..."
-git clone https://github.com/DansDesigns/LoomOS.git "$HOME/LoomOS"
+git clone https://github.com/DansDesigns/LoomOS_GUI.git "$HOME/LoomOS"
 
 # ========== Create app directory ========== 
 mkdir -p "$HOME/.loomos_apps"
 
 # ========== Copy App folder contents ========== 
-if [ -d "$HOME/LoomOS/App" ]; then
+if [ -d "$HOME/LoomOS/Apps" ]; then
     echo "Installing LoomOS apps..."
-    cp -r "$HOME/LoomOS/App/"* "$HOME/.loomos_apps/"
+    cp -r "$HOME/LoomOS/Apps/"* "$HOME/.loomos_apps/"
 fi
 
 # ========== Copy Configs folder contents ========== 
