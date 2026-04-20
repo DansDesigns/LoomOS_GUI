@@ -1,6 +1,5 @@
 @echo off
 setlocal disableDelayedExpansion
-cd /d "C:\LoomOS"
 rmdir /s /q .venv
 python -m venv .venv
 call ".venv\Scripts\activate.bat"
