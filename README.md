@@ -12,7 +12,7 @@ Windows: run install_loomos_gui.bat
 Both will create a virtual python environment, install the requirements & launch LoomOS GUI
 for Linux <TBD>
 for Windows, use run_loomos_gui.bat everytime, after first run, to launch
-
+```
 
 # Speech recognition login
 x2 NATO phonetic alphabet words + x2 numbers in any combination
