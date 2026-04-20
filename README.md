@@ -10,6 +10,8 @@ Linux: run install_loomos_gui.sh
 Windows: run install_loomos_gui.bat
 
 Both will create a virtual python environment, install the requirements & launch LoomOS GUI
+for Linux <TBD>
+for Windows, use run_loomos_gui.bat everytime, after first run, to launch
 
 
 # Speech recognition login
