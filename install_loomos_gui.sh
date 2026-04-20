@@ -42,5 +42,4 @@ echo""
 echo "=== Installation Complete ==="
 echo""
 
-
 python loomos_gui.py
