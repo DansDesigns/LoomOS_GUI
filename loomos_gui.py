@@ -3896,8 +3896,12 @@ class LoomOSGui:
 
     def __init__(self,wallpaper_path=None):
         pygame.init(); pygame.display.set_caption("LoomOS Speech Centre")
-        info=pygame.display.Info(); self.W=info.current_w; self.H=info.current_h
-        self.screen=pygame.display.set_mode((self.W,self.H),pygame.FULLSCREEN|pygame.NOFRAME)
+        # Set a temporary mode first so display.Info() returns real hardware dimensions
+        pygame.display.set_mode((0, 0), pygame.FULLSCREEN | pygame.NOFRAME)
+        info = pygame.display.Info()
+        self.W = info.current_w; self.H = info.current_h
+        # Now set the real fullscreen mode at the correct resolution
+        self.screen = pygame.display.set_mode((self.W, self.H), pygame.FULLSCREEN | pygame.NOFRAME)
         self.clock=pygame.time.Clock(); self.running=True
         self._settings=load_settings()
         self.fonts=load_fonts(self._settings.get("ui_font",""))
